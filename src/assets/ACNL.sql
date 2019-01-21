@@ -241,4 +241,9 @@ INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, i
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, set, obtained) VAULES ("Furnitures", "basketball-hoop.png", "Basketball Hoop", "Timmy & Tommy", "2120", TRUE, "530", NULL, NULL, FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, set, obtained) VAULES ("Furnitures", "basket-chair.png", "Basket Chair", "Isabelle's RV;Stella's RV;Tasha's RV", "3 MEOW coupons", FALSE, NULL, NULL, "Welcome amiibo Update", FALSE);
 
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Mushrooms", "elegant-mushroom.png", "Elegant Mushroom", "Near Trees (only in November)", FALSE, "10000", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Mushrooms", "famous-mushroom.png", "Famous Mushroom", "Near Trees Stumps (Rare)", FALSE, "16000", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Mushrooms", "flat-mushroom.png", "Flat Mushroom", "Near Trees (only in November)", FALSE, "200", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Mushrooms", "round-mushroom.png", "Round Mushroom", "Near Trees (only in November)", FALSE, "200", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Mushrooms", "skinny-mushroom.png", "Skinny Mushroom", "Near Trees (only in November);Near Trees Stumps", FALSE, "200", FALSE);
 
