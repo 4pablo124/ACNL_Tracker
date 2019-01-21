@@ -312,3 +312,12 @@ INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, i
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, set, obtained) VAULES ("Umbrellas", "toad-parasol.png", "Toad Parasol", "Labelle", "320", TRUE, "80", "Trendy", NULL, FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, set, obtained) VAULES ("Umbrellas", "yellow-umbrella.png", "Yellow Umbrella", "Labelle", "320", TRUE, "80", NULL, NULL, FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, set, obtained) VAULES ("Umbrellas", "zebra-umbrella.png", "Zebra Umbrella", "Labelle", "320", TRUE, "80", NULL, NULL, FALSE);
+
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, price, obtained) VAULES ("Wetsuits", "black-wet-suit.png", "Black Wet Suit", "Island Gift Shop", FALSE, "40 medals", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, price, obtained) VAULES ("Wetsuits", "blue-wet-suit.png", "Blue Wet Suit", "Island Gift Shop", FALSE, "40 medals", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, price, obtained) VAULES ("Wetsuits", "green-wet-suit.png", "Green Wet Suit", "Island Gift Shop", FALSE, "40 medals", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, price, obtained) VAULES ("Wetsuits", "orange-wet-suit.png", "Orange Wet Suit", "Island Gift Shop (Rare)", FALSE, "40 medals", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, price, obtained) VAULES ("Wetsuits", "pink-wet-suit.png", "Pink Wet Suit", "Island Gift Shop (Rare)", FALSE, "40 medals", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, price, obtained) VAULES ("Wetsuits", "red-wet-suit.png", "Red Wet Suit", "Island Gift Shop (Club Tortimer)", FALSE, "40 medals", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, price, obtained) VAULES ("Wetsuits", "striped-wet-suit.png", "Striped Wet Suit", "Island Gift Shop (Club Tortimer)", FALSE, "40 medals", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, price, obtained) VAULES ("Wetsuits", "white-wet-suit.png", "White Wet Suit", "Island Gift Shop (Club Tortimer)", FALSE, "40 medals", FALSE);
