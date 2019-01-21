@@ -247,3 +247,9 @@ INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Mushrooms", "round-mushroom.png", "Round Mushroom", "Near Trees (only in November)", FALSE, "200", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Mushrooms", "skinny-mushroom.png", "Skinny Mushroom", "Near Trees (only in November);Near Trees Stumps", FALSE, "200", FALSE);
 
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Ore", "amethyst.png", "Amethyst", "Inside rocks (smash with a shovel)", FALSE, "2000", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Ore", "emerald.png", "Emerald", "Inside rocks (smash with a shovel)", FALSE, "2000", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Ore", "gold-nugget.png", "Gold Nugget", "Inside rocks (smash with a shovel)", FALSE, "4000", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Ore", "ruby.png", "Ruby", "Inside rocks (smash with a shovel)", FALSE, "2000", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Ore", "sapphire.png", "Sapphire", "Inside rocks (smash with a shovel)", FALSE, "2000", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Ore", "silver-nugget.png", "Silver Nugget", "Inside rocks (smash with a shovel)", FALSE, "3000", FALSE);
