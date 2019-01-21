@@ -253,3 +253,14 @@ INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Ore", "ruby.png", "Ruby", "Inside rocks (smash with a shovel)", FALSE, "2000", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Ore", "sapphire.png", "Sapphire", "Inside rocks (smash with a shovel)", FALSE, "2000", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Ore", "silver-nugget.png", "Silver Nugget", "Inside rocks (smash with a shovel)", FALSE, "3000", FALSE);
+
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "conch-shell.png", "Conch Shell", "Beach", FALSE, "350", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "coral.png", "Coral", "Beach", FALSE, "250", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "cowrie-shell.png", "Cowrie Shell", "Beach", FALSE, "30", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "giant-clam-shell.png", "Giant-Clam Shell", "Beach", FALSE, "450", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "oyster-shell.png", "Oyster Shell", "Beach", FALSE, "450", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "pearl-oyster-shell.png", "Pearl-Oyster Shell", "Beach", FALSE, "1200", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "sand-dollar.png", "Sand Dollar", "Beach", FALSE, "60", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "scallop-shell.png", "Scallop Shell", "Beach", FALSE, "600", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "sea-snail-shell.png", "Sea-Snail Shell", "Beach", FALSE, "90", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "venus-comb-shell.png", "Venus-Comb Shell", "Beach", FALSE, "150", FALSE);
