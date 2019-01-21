@@ -124,6 +124,22 @@ INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, interior
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, interiorTheme, obtained) VAULES ("Balloons", "yelllow-balloon.png", "Yelllow Balloon", "Happy Home Showcase (2 to 3 StreetPass)", FALSE, "125", "Toy Shop", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, interiorTheme, obtained) VAULES ("Balloons", "yelllow-pinwheel.png", "Yelllow Pinwheel", "Happy Home Showcase (4 StreetPass)", FALSE, "125", NULL, FALSE);
 
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Fruit", "apple.png", "Apple", "Apple Tree", FALSE, "100 (local);500 (exotic)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Fruit", "bamboo-shoot.png", "Bamboo Shoot", "Gardening Store (after the T&T Emporium arrives)", FALSE, "750", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Fruit", "banana.png", "Banana", "Island Tree", FALSE, "250", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Fruit", "cherry.png", "Cherry", "Cherry Tree", FALSE, "100 (local);500 (exotic)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Fruit", "coconut.png", "Coconut", "Island Tree", FALSE, "250", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Fruit", "durian.png", "Durian", "Island Tree", FALSE, "250", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Fruit", "lemon.png", "Lemon", "Island Tree", FALSE, "250", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Fruit", "lychee.png", "Lychee", "Island Tree", FALSE, "250", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Fruit", "mango.png", "Mango", "Island Tree", FALSE, "250", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Fruit", "orange.png", "Orange", "Orange Tree", FALSE, "100 (local);500 (exotic)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Fruit", "peach.png", "Peach", "Peach Tree", FALSE, "100 (local);500 (exotic)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Fruit", "pear.png", "Pear", "Pear Tree", FALSE, "100 (local);500 (exotic)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Fruit", "perfect-apple.png", "Perfect Apple", "Perfect Apple Tree", FALSE, "600 (local);3000 (exotic)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Fruit", "perfect-orange.png", "Perfect Orange", "Perfect Orange Tree", FALSE, "600 (local);3000 (exotic)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Fruit", "perfect-pear.png", "Perfect Pear", "Perfect Pear Tree", FALSE, "600 (local);3000 (exotic)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Fruit", "persimmon.png", "Persimmon", "Gardening Store (after the T&T Emporium arrives)", FALSE, "250", FALSE);
 
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, set, obtained) VAULES ("Furnitures", "1-up-mushroom.png", "1-UP Mushroom", "Fortune Cookie #24", NULL, FALSE, "210", NULL, "Mario", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, set, obtained) VAULES ("Furnitures", "2017-cake.png", "2017 Cake", "DLC", NULL, FALSE, NULL, NULL, "Welcome amiibo Update", FALSE);
