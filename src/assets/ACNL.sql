@@ -1,5 +1,6 @@
 CREATE TABLE IF NOT EXISTS items(id INTEGER PRIMARY KEY AUTOINCREMENT, type TEXT, photo TEXT, name TEXT, obtainedFrom TEXT, price TEXT, orderable BOOLEAN, sellsFor TEXT, interiorTheme TEXT, fashionTheme TEXT, set TEXT, obtained BOOLEAN);
 
+--ACCESSORIES
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, fashionTheme, set, obtained) VAULES ("Accessories", "3d-glasses.png", "3D Glasses", "Labelle", "240", TRUE, "60", "Sci-Fi;Toy Shop", "Flashy", NULL, FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, fashionTheme, set, obtained) VAULES ("Accessories", "aviator-shades.png", "Aviator Shades", "GracieGrace (summer)", "4800", FALSE, "1200", "Trendy", "Rock-n'-roll", NULL, FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, fashionTheme, set, obtained) VAULES ("Accessories", "bad-bros-stache.png", "Bad Bro's Stache", "Fortune cookie #44", NULL, FALSE, "210", "Toy Shop", "Flashy", NULL, FALSE);
@@ -59,6 +60,7 @@ INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, i
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, fashionTheme, set, obtained) VAULES ("Accessories", "triangle-shades.png", "Triangle Shades", "Labelle", "240", TRUE, "60", NULL, "Rock-n'-roll", NULL, FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, fashionTheme, set, obtained) VAULES ("Accessories", "yellow-glasses.png", "Yellow Glasses", "Labelle", "240", TRUE, "60", NULL, "Cute", NULL, FALSE);
 
+--ART
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, obtained) VAULES ("Art", "amazing-painting.png", "Amazing Painting", "Redd (Redd's Gallery)", "3920", FALSE, "980", "Antique;Quirky", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, obtained) VAULES ("Art", "ancient-statue.png", "Ancient Statue", "Redd (Redd's Gallery)", "3920", FALSE, "980", "Antique;Quirky", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, obtained) VAULES ("Art", "basic-painting.png", "Basic Painting", "Redd (Redd's Gallery)", "3920", FALSE, "980", "Antique;Quirky", FALSE);
@@ -93,6 +95,7 @@ INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, i
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, obtained) VAULES ("Art", "wistful-painting.png", "Wistful Painting", "Redd (Redd's Gallery)", "3920", FALSE, "980", "Antique;Quirky", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, obtained) VAULES ("Art", "worthy-painting.png", "Worthy Painting", "Redd (Redd's Gallery)", "3920", FALSE, "980", "Antique;Quirky", FALSE);
 
+--BALLOONS
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, interiorTheme, obtained) VAULES ("Balloons", "blue-balloon.png", "Blue Balloon", "Happy Home Showcase (2 to 3 StreetPass)", FALSE, "125", "Toy Shop", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, interiorTheme, obtained) VAULES ("Balloons", "blue-pinwheel.png", "Blue Pinwheel", "Happy Home Showcase (4 StreetPass)", FALSE, "125", NULL, FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, interiorTheme, obtained) VAULES ("Balloons", "bunny-b-balloon.png", "Bunny B. Balloon", "Happy Home Showcase (5 StreetPass)", FALSE, "125", "Toy Shop", FALSE);
@@ -124,6 +127,21 @@ INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, interior
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, interiorTheme, obtained) VAULES ("Balloons", "yelllow-balloon.png", "Yelllow Balloon", "Happy Home Showcase (2 to 3 StreetPass)", FALSE, "125", "Toy Shop", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, interiorTheme, obtained) VAULES ("Balloons", "yelllow-pinwheel.png", "Yelllow Pinwheel", "Happy Home Showcase (4 StreetPass)", FALSE, "125", NULL, FALSE);
 
+--BOTTOMS
+
+--BUGS
+
+--DRESSES
+
+--FISH
+
+--FLOORING
+
+--FLOWERS
+
+--FOSSILS
+
+--FRUIT
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Fruit", "apple.png", "Apple", "Apple Tree", FALSE, "100 (local);500 (exotic)", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Fruit", "bamboo-shoot.png", "Bamboo Shoot", "Gardening Store (after the T&T Emporium arrives)", FALSE, "750", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Fruit", "banana.png", "Banana", "Island Tree", FALSE, "250", FALSE);
@@ -141,6 +159,7 @@ INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Fruit", "perfect-pear.png", "Perfect Pear", "Perfect Pear Tree", FALSE, "600 (local);3000 (exotic)", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Fruit", "persimmon.png", "Persimmon", "Gardening Store (after the T&T Emporium arrives)", FALSE, "250", FALSE);
 
+--FURNITURES
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, set, obtained) VAULES ("Furnitures", "1-up-mushroom.png", "1-UP Mushroom", "Fortune Cookie #24", NULL, FALSE, "210", NULL, "Mario", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, set, obtained) VAULES ("Furnitures", "2017-cake.png", "2017 Cake", "DLC", NULL, FALSE, NULL, NULL, "Welcome amiibo Update", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, set, obtained) VAULES ("Furnitures", "24-hour-shop-abd.png", "24-Hour-Shop ABD", "DLC (JP)", NULL, FALSE, "711", NULL, NULL, FALSE);
@@ -241,12 +260,20 @@ INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, i
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, set, obtained) VAULES ("Furnitures", "basketball-hoop.png", "Basketball Hoop", "Timmy & Tommy", "2120", TRUE, "530", NULL, NULL, FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, set, obtained) VAULES ("Furnitures", "basket-chair.png", "Basket Chair", "Isabelle's RV;Stella's RV;Tasha's RV", "3 MEOW coupons", FALSE, NULL, NULL, "Welcome amiibo Update", FALSE);
 
+--GYROIDS
+
+--HATS
+
+--MUSHROOMS
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Mushrooms", "elegant-mushroom.png", "Elegant Mushroom", "Near Trees (only in November)", FALSE, "10000", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Mushrooms", "famous-mushroom.png", "Famous Mushroom", "Near Trees Stumps (Rare)", FALSE, "16000", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Mushrooms", "flat-mushroom.png", "Flat Mushroom", "Near Trees (only in November)", FALSE, "200", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Mushrooms", "round-mushroom.png", "Round Mushroom", "Near Trees (only in November)", FALSE, "200", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Mushrooms", "skinny-mushroom.png", "Skinny Mushroom", "Near Trees (only in November);Near Trees Stumps", FALSE, "200", FALSE);
 
+--MUSIC
+
+--ORE
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Ore", "amethyst.png", "Amethyst", "Inside rocks (smash with a shovel)", FALSE, "2000", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Ore", "emerald.png", "Emerald", "Inside rocks (smash with a shovel)", FALSE, "2000", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Ore", "gold-nugget.png", "Gold Nugget", "Inside rocks (smash with a shovel)", FALSE, "4000", FALSE);
@@ -254,6 +281,7 @@ INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Ore", "sapphire.png", "Sapphire", "Inside rocks (smash with a shovel)", FALSE, "2000", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Ore", "silver-nugget.png", "Silver Nugget", "Inside rocks (smash with a shovel)", FALSE, "3000", FALSE);
 
+--SEASHELLS
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "conch-shell.png", "Conch Shell", "Beach", FALSE, "350", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "coral.png", "Coral", "Beach", FALSE, "250", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "cowrie-shell.png", "Cowrie Shell", "Beach", FALSE, "30", FALSE);
@@ -265,6 +293,17 @@ INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "sea-snail-shell.png", "Sea-Snail Shell", "Beach", FALSE, "90", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "venus-comb-shell.png", "Venus-Comb Shell", "Beach", FALSE, "150", FALSE);
 
+--SHOES
+
+--SOCKS
+
+--STATIONERY
+
+--TOOLS
+
+--TOPS
+
+--TREES
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Trees", "blue-hydrangea-start.png", "Blue-Hydrangea Start", "Gardening Store (after the TIY arrives)", FALSE, "30", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Trees", "cedar-sapling.png", "Cedar Sapling", "Gardening Store", FALSE, "15", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Trees", "holly-start.png", "Holly Start", "Gardening Store (after the TIY arrives)", FALSE, "30", FALSE);
@@ -276,6 +315,7 @@ INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Trees", "white-azalea-start.png", "White-Azalea Start", "Gardening Store (after the TIY arrives)", FALSE, "30", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, price, obtained) VAULES ("Trees", "y-hibiscus-start.png", "Y.-Hibiscus Start", "Island Gift Shop", FALSE, "5 medals", FALSE);
 
+--UMBRELLAS
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, set, obtained) VAULES ("Umbrellas", "bat-umbrella.png", "Bat Umbrella", "Labelle", "320", TRUE, "80", "Antique;Quirky", NULL, FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, set, obtained) VAULES ("Umbrellas", "beach-umbrella.png", "Beach Umbrella", "Labelle", "320", TRUE, "80", "Antique;Quirky", NULL, FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, set, obtained) VAULES ("Umbrellas", "blue-dot-umbrella.png", "Blue Dot Umbrella", "Labelle", "320", TRUE, "80", NULL, NULL, FALSE);
@@ -313,6 +353,11 @@ INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, i
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, set, obtained) VAULES ("Umbrellas", "yellow-umbrella.png", "Yellow Umbrella", "Labelle", "320", TRUE, "80", NULL, NULL, FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, set, obtained) VAULES ("Umbrellas", "zebra-umbrella.png", "Zebra Umbrella", "Labelle", "320", TRUE, "80", NULL, NULL, FALSE);
 
+--USABLES
+
+--WALPAPER
+
+--WETSUITS
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, price, obtained) VAULES ("Wetsuits", "black-wet-suit.png", "Black Wet Suit", "Island Gift Shop", FALSE, "40 medals", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, price, obtained) VAULES ("Wetsuits", "blue-wet-suit.png", "Blue Wet Suit", "Island Gift Shop", FALSE, "40 medals", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, price, obtained) VAULES ("Wetsuits", "green-wet-suit.png", "Green Wet Suit", "Island Gift Shop", FALSE, "40 medals", FALSE);
