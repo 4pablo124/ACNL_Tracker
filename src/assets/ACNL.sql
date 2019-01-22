@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS items(id INTEGER PRIMARY KEY AUTOINCREMENT, type TEXT, photo TEXT, name TEXT, obtainedFrom TEXT, price TEXT, orderable BOOLEAN, sellsFor TEXT, interiorTheme TEXT, fashionTheme TEXT, set TEXT, obtained BOOLEAN);
+CREATE TABLE IF NOT EXISTS items(id INTEGER PRIMARY KEY AUTOINCREMENT, type TEXT, photo TEXT, name TEXT, obtainedFrom TEXT, price TEXT, orderable BOOLEAN, sellsFor TEXT, appears TEXT, interiorTheme TEXT, fashionTheme TEXT, set TEXT, obtained BOOLEAN);
 
 --ACCESSORIES
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, interiorTheme, fashionTheme, set, obtained) VAULES ("Accessories", "3d-glasses.png", "3D Glasses", "Labelle", "240", TRUE, "60", "Sci-Fi;Toy Shop", "Flashy", NULL, FALSE);
@@ -129,7 +129,79 @@ INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, interior
 
 --BOTTOMS
 
---BUGS
+--BUGS (FALTA ESTANDARIZAR FORMATO DE APARICION)
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "agrias-butterfly.png", "Agrias Butterfly", "Around flowers", FALSE, "3000", "(1% in all months)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "ant.png", "Ant", "Appears when spoiled turnips, candies, lollipops, and rotten fruits are left on the ground", FALSE, "80", "Anytime", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "bagworm.png", "Bagworm", "On trees (shake them)", FALSE, "300", "November 8:00-18:59 (15%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "banded-dragonfly.png", "banded dragonfly", "Anywhere other than above salt water (the sea)", FALSE, "4500", "August 8:00-16:59 (2%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "bee.png", "Bee", "Hidden in trees with bee hives (grab and shake)", FALSE, "2500", "Anytime", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "beehive.png", "Beehive", "Shaking trees", FALSE, "500", NULL, FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "bell-cricket.png", "Bell Cricket", "In grassy patches", FALSE, "430", "September 19:00 through the next day 3:59 (25%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "birdwing.png", "Birdwing", "Around flowers", FALSE, "4000", "(0.5% in all months)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "brown-cicada.png", "Brown Cicada", "On trees", FALSE, "200", "July 8:00-15:59 (20%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "centipede.png", "Centipede", "Hidden under rocks (smack with a shovel)", FALSE, "300", "January through February 16:00-22:59 (5%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "cicada-shell.png", "Cicada Shell", "On trees", FALSE, "100", "Best Appearance:(2% in all months)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "common-butterfly.png", "Common Butterfly", "Around flowers", FALSE, "90", "April 8:00-16:59 (20%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "cricket.png", "Cricket", "In grassy patches", FALSE, "130", "October 19:00-22:59 (35%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "cyclommatus.png", "Cyclommatus", "On palm trees", FALSE, "8000", "August 4:00-7:59 (2%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "darner-dragonfly.png", "Darner Dragonfly", "Anywhere other than above salt water (the sea)", FALSE, "450", "June 16:00-16:59 (11%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "diving-beetle.png", "Diving Beetle", "In rivers", FALSE, "80", "June 8:00-16:59 (2%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "dung-beetle.png", "Dung Beetle", "Next to snowballs", FALSE, "800", "23:00-7:59 the next day (2% Winter. Dec - Feb)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "emperor-butterfly.png", "Emperor Butterfly", "Around flowers", FALSE, "2500", "July/August 4:00-7:59 (4%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "evening-cicada.png", "Evening Cicada", "On trees", FALSE, "550", "July 17:00-18:59 (37%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "firefly.png", "Firefly", "In the air above freshwater (rivers, etc.)", FALSE, "300", "19:00-22:59 (59.5%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "flea.png", "Flea", "On neighbors walking outside", FALSE, "70", "June through August (all day) (1%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "fly.png", "Fly", "Around rafflesia and spoiled turnips and trash left on the ground", FALSE, "60", "Anytime", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "fruit-beetle.png", "Fruit Beetle", "On trees", FALSE, "100", "July 19:00-7:59 the next day (15%);August 23:00-7:59 the next day (15%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "giant-cicada.png", "Giant Cicada", "On trees", FALSE, "500", "August 8:00-15:59 (12%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "golden-stag.png", "Golden Stag", "On trees", FALSE, "12000", "17:00-7:59 the next day (0.5% August)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "goliath-beetle.png", "Goliath Beetle", "On palm trees", FALSE, "6000", "July 19:00-3:59 the next day (2%);August 19:00-7:59 the next day (2%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "grasshopper.png", "Grasshopper", "In grassy patches", FALSE, "160", "September 8:00-16:59 (11%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "hermit-crab.png", "Hermit Crab", "Only found on the tropical island (never in town)", FALSE, "1000", "19:00-7:59 the next day (3%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "honeybee.png", "Honeybee", "Around flowers", FALSE, "1000", "April 8:00-15:59 (12%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "horned-atlas.png", "Horned Atlas", "On palm trees", FALSE, "8000", "August 19:00-22:59 (2%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "horned-dynastid.png", "Horned Dynastid", "On trees", FALSE, "1350", "23:00-7:59 the next day (7% in all months)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "horned-elephant.png", "Horned Elephant", "On palm trees", FALSE, "8000", "August 4:00-7:59 (2%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "horned-hercules.png", "Horned Hercules", "On palm trees", FALSE, "12000", "17:00-7:59 the next day (0.5% August)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "house-centipede.png", "House Centipede", "Hidden under rocks (smack with a shovel)", FALSE, "250", "September 19:00-22:59 (3%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "jewel-beetle.png", "Jewel Beetle", "On trees", FALSE, "2400", "16:00-16:59 (3% in all months)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "ladybug.png", "Ladybug", "On flowers", FALSE, "200", "March/April 8:00-15:59 (12%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "lantern-fly.png", "Lantern Fly", "On trees", FALSE, "1800", "June through August 23:00-7:59 (3%); June 17:00-18:59 (3%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "longhorn-beetle.png", "Longhorn Beetle", "On tree stumps", FALSE, "260", "July through August 23:00-7:59 next day (5%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "long-locust.png", "Long Locust", "In grassy patches", FALSE, "200", "September/October 8:00-15:59 (14%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "mantis.png", "Mantis", "On flowers", FALSE, "430", "September through November 8:00-15:59 (6%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "migratory-locust.png", "Migratory Locust", "In grassy patches", FALSE, "600", "September/October 8:00-15:59 (10%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "miyama-stag.png", "Miyama Stag", "On trees", FALSE, "1000", "August 4:00-7:59 (7%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "mole-cricket.png", "Mole Cricket", "Hidden in dirt, dig up with a shovel", FALSE, "280", "November through April (all day) (3%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "monarch-butterfly.png", "Monarch Butterfly", "Around flowers", FALSE, "140", "October 8:00-15:59 (33%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "mosquito.png", "Mosquito", "In the air", FALSE, "130", "August 17:00-18:59 (21%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "moth.png", "Moth", "Around the lit up windows of Re-Tail, The Roost café, and around street lamps", FALSE, "60", "June/August 23:00-3:59 (16%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "oak-silk-moth.png", "Oak Silk Moth", "On trees", FALSE, "1200", "June through August 23:00-3:59 (2%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "orchid-mantis.png", "Orchid Mantis", "On white flowers", FALSE, "2400", "November 8:00-15:59 (4%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "peacock-butterfly.png", "Peacock Butterfly", "Around blue, purple, and black flowers", FALSE, "220", "June 8:00-15:59 (9%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "petaltail-dragonfly.png", "Petaltail Dragonfly", "Anywhere other than above salt water (the sea)", FALSE, "8000", "17:00-18:59 (0.5% in all months)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "pill-bug.png", "Pill Bug", "Hidden under rocks (smack with a shovel)", FALSE, "250", "November through March (all day) (15%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "pondskater.png", "Ponfskater", "On the surface of lakes and ponds", FALSE, "130", "June 17:00-18:59 (10%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "rainbow-stag.png", "Rainbow Stag", "On trees", FALSE, "10000", "August 19:00-7:59 the next day (1%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "raja-brooke.png", "Raja Brooke", "In the air above freshwater (rivers, etc.)", FALSE, "2500", "July through September 16:00-16:59 (2%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "red-dragonfly.png", "Red Dragonfly", "Anywhere other than above salt water (the sea)", FALSE, "80", "October 16:00-16:59 (46%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "rice-grasshopper.png", "Rice Grasshopper", "In grassy patches", FALSE, "400", "October 8:00-16:59 (3%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "robust-cicada.png", "Robust Cicada", "On trees", FALSE, "300", "July 8:00-15:59 (23%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "saw-stag.png", "Saw Stag", "On trees", FALSE, "2000", "August 4:00-7:59 (5%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "scarab-beetle.png", "Scarab Beetle", "On trees", FALSE, "6000", "23:00-7:59 the next day (2%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "scorpion.png", "Scorpion", "On grass and dirt", FALSE, "8000", "July - September 19:00-3:59 next day (0.5%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "snail.png", "Snail", "On bushes and shrubs (only on rainy days)", FALSE, "250", "June 4:00-7:59 (15%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "spider.png", "Spider", "On trees", FALSE, "300", "April - May 17:00-7:55 the next day (9%);May 4:00-7:59/17:00-18:59 (9%);September 4:00-7:59 (9%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "stink-bug.png", "Stink-bug", "On trees", FALSE, "120", "All months (1%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "tarantula.png", "Tarantula", "On grass and dirt", FALSE, "8000", "August 19:00-3:59 the next day (0.5%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "tiger-beetle.png", "Tiger Beetle", "In grassy patches", FALSE, "1500", "8:00-18:59 (0.5%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "tiger-butterfly.png", "Tiger Butterfly", "Around red/pink flowers", FALSE, "160", "May & June 8:00-15:59 (12%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "violin-beetle.png", "Violin Beetle", "On tree stumps", FALSE, "260", "June 4:00-18:59 (4%); September - October 4:00-15:59 (4%);November 8:00-15:59 (4%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "walker-cicada.png", "Walker Cicada", "On trees", FALSE, "400", "August 16:00-16:59 (8.5%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "walking-leaf.png", "Walking Leaf", "On trees", FALSE, "600", "July 16:00-16:59 (1%);August - September 8:00-16:59 (1%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "walkingstick.png", "Walkingstick", "On trees", FALSE, "600", "September - November 4:00-7:59 (3%);17:00-18:59 (3%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "wharf-roach.png", "Wharf Woach", "On the beach", FALSE, "200", "June - September all day (1%)", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears, obtained) VAULES ("Bugs", "yellow-butterfly.png", "Yellow Butterfly", "Around flowers", FALSE, "90", "April 8:00-16:59 (20%)", FALSE);
 
 --DRESSES
 
