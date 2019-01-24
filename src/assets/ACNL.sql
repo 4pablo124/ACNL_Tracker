@@ -210,6 +210,50 @@ INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, appears,
 --FLOORING
 
 --FLOWERS
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "black-cosmos.png", "Black Cosmos", "Hybrid - From two Orange Cosmos (rare)", FALSE, "240", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "black-lily.png", "Black Lily", "Hybrid - From two Red Lilys", FALSE, "80", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "black-rose.png", "Black Rose", "Hybrid - From two Red Roses", FALSE, "450", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "black-tulip.png", "Black Tulip", "Hybrid - From two Red Tulips", FALSE, "240", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "black-pansy.png", "Black Pansy", "Hybrid - From Two White Pansy", FALSE, "240", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "blue-violet.png", "Blue Violet", "Hybrid - From Purple and White Violets", FALSE, "80", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "dandelion.png", "Dandelion", "Town weeds", FALSE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "dandelion-puff.png", "Dandelion Puff", "Withered dandelion", FALSE, NULL, FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "gold-rose.png", "Gold Rose", "Hybrid - Have a black Rose wilt, and water with a Golden watering can", FALSE, "2500", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "jacobs-ladder.png", "Jacob's Ladder", "Perfect Town", FALSE, NULL, FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "lucky-clover.png", "Lucky Clover", "Town weeds", FALSE, NULL, FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "orange-cosmos.png", "Orange Cosmos", "Hybrid - From Red and Yellow Cosmos", FALSE, "80", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "orange-lily.png", "Orange Lily", "Hybrid - From Yellow and Red Lilys", FALSE, "80", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "orange-pansy.png", "Orange Pansy", "Hybrid - From Red and Yellow Pansy", FALSE, "80", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "orange-rose.png", "Orange Rose", "Hybrid - From Red and Yellow Roses", FALSE, "80", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "orange-tulip.png", "Orange Tulip", "Hybrid - From Red and Yellow Tulips", FALSE, "240", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "pink-carnation.png", "Pink Carnation", "Mom on Mother's Day", FALSE, "500", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "pink-cosmos.png", "Pink Cosmos", "Hybrid - From Red and White Cosmos", FALSE, "80", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "pink-lily.png", "Pink Lily", "Hybrid - From Red and White Lilys", FALSE, "80", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "pink-rose.png", "Pink Rose", "Hybrid - From Red and White Roses", FALSE, "80", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "pink-tulip.png", "Pink Tulip", "Hybrid - From Red and White Tulips", FALSE, "80", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "purple-pansy.png", "Purple Pansy", "Hybrid - Two Red Pansys", FALSE, "80", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "purple-rose.png", "Purple Rose", "Hybrid - From two White Roses", FALSE, "80", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "purple-tulip.png", "Purple Tulip", "Hybrid - From Black and Pink tulips", FALSE, "80", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "purple-violet.png", "Purple Violet", "Gardening Store", FALSE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "red-carnation.png", "Red Carnation", "Dad on Father's Day", FALSE, "500", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Flowers", "red-cosmos.png", "Red Cosmos", "Gardening Store", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Flowers", "red-lily.png", "Red Lily", "Gardening Store", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Flowers", "red-pansy.png", "Red Pansy", "Gardening Store", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Flowers", "red-rose.png", "Red Rose", "Gardening Store", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Flowers", "red-tulip.png", "Red Tulip", "Gardening Store", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Flowers", "red-tulip.png", "Red Tulip", "Gardening Store", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Flowers", "white-carnation.png", "White Carnation", "Hybrid - From Red and Pink Carnation", FALSE, "2000", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Flowers", "white-cosmos.png", "White Cosmos", "Gardening Store", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Flowers", "white-lily.png", "White Lily", "Gardening Store", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Flowers", "white-pansy.png", "White Pansy", "Gardening Store", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Flowers", "white-tulip.png", "White Tulip", "Gardening Store", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Flowers", "white-violet.png", "White Violet", "Gardening Store", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Flowers", "yellow-cosmos.png", "Yellow Cosmos", "Gardening Store", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Flowers", "yellow-lily.png", "Yellow Lily", "Gardening Store", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Flowers", "yellow-pansy.png", "Yellow Pansy", "Gardening Store", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Flowers", "yellow-rose.png", "Yellow Rose", "Gardening Store", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Flowers", "yellow-tulip.png", "Yellow Tulip", "Gardening Store", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Flowers", "yellow-violet.png", "Yellow Violet", "Gardening Store", "160", TRUE, "40", FALSE);
 
 --FOSSILS
 
@@ -369,7 +413,74 @@ INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained
 
 --SOCKS
 
---STATIONERY
+--PAPER
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Paper", "academy-paper.png", "Academy Paper", "Villager letters (rare)", FALSE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "airmail-paper.png", "Airmail Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "bathtub-paper.png", "Bathtub Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "bejeweled-paper.png", "Bejeweled Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "birthday-paper.png", "Birthday Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "bubble-paper.png", "Bubble Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "buttercup-paper.png", "Buttercup Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "butterfly-paper.png", "Butterfly Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "camouflage-paper.png", "Camouflage Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, set, obtained) VAULES ("Paper", "campground-paper.png", "Campground Paper", "Villager letters (rare)", FALSE, NULL, "Welcome amiibo Update" FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "card-paper.png", "Card Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "chic-paper.png", "Chic Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "cloudy-paper.png", "Cloudy Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "composer-paper.png", "Composer Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "cool-paper.png", "Cool Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "cow-paper.png", "Cow Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "crater-paper.png", "Crater Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "elegant-paper.png", "Elegant Paper", "Timmy & Tommy", "800", TRUE, "200", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "fireworks-paper.png", "Fireworks Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "floral-paper.png", "Floral Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "flowery-paper.png", "Flowery Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "forest-paper.png", "Forest Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "formal-paper.png", "Formal Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "four-leaf-paper.png", "Four-Leaf Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Paper", "gallery-paper.png", "Gallery Paper", "Villager letters (rare)", FALSE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "geometric-paper.png", "Geometric Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "goldfish-paper.png", "Goldfish Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Paper", "halloween-paper.png", "Halloween Paper", "Villager letters (rare)", FALSE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "hamburger-paper.png", "Hamburger Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "hieroglyph-paper.png", "Hieroglyph Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "imperial-paper.png", "Imperial Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "industrial-paper.png", "Industrial Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "lacy-paper.png", "Lacy Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "lemon-lime-paper.png", "Lemon-Lime Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "leopard-paper.png", "Leopard Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "lotus-paper.png", "Lotus Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "lovely-paper.png", "Lovely Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "maple-leaf-paper.png", "Maple-Leaf Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "melody-paper.png", "Melody Paper", "Timmy & Tommy (after the Super T&T arrives)", "500", TRUE, "125", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "mosaic-paper.png", "Mosaic Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Paper", "museum-paper.png", "museum Paper", "Villager letters (rare)", FALSE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "mushroom-paper.png", "Mushroom Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "new-years-cards.png", "New Year's cards", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "night-sky-paper.png", "Night-Sky Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, set, obtained) VAULES ("Paper", "Nintendo-paper.png", "Nintendo Paper", "Villager letters (rare)", FALSE, NULL, "Welcome amiibo Update" FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "nook-paper.png", "Nook Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, set, obtained) VAULES ("Paper", "nooks-homes-paper.png", "Nook's Homes Paper", "Villager letters (rare)", FALSE, NULL, "Welcome amiibo Update" FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "notebook-paper.png", "Notebook Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "ocean-paper.png", "Ocean Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "petal-paper.png", "Petal Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "piano-paper.png", "Piano Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "plaid-paper.png", "Plaid Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "polka-dot-paper.png", "Polka-Dot Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Paper", "post-office-paper.png", "Post-Office Paper", "Villager letters (rare)", FALSE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "rainbow-paper.png", "Rainbow Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "ribbon-paper.png", "Ribbon Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "smb3-paper.png", "SMB3 Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Paper", "snowman-paper.png", "Snowman Paper", "Villager letters (rare)", FALSE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "snowy-paper.png", "Snowy Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "southwest-paper.png", "Southwest Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "sparkly-paper.png", "Sparkly Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "star-paper.png", "Star Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "tartan-paper.png", "Tartan Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "tile-paper.png", "Tile Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "town-view-paper.png", "Town-View Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "vine-paper.png", "Vine Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "weathered-paper.png", "Weathered Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
 
 --TOOLS
 
