@@ -397,22 +397,6 @@ INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Ore", "sapphire.png", "Sapphire", "Inside rocks (smash with a shovel)", FALSE, "2000", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Ore", "silver-nugget.png", "Silver Nugget", "Inside rocks (smash with a shovel)", FALSE, "3000", FALSE);
 
---SEASHELLS
-INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "conch-shell.png", "Conch Shell", "Beach", FALSE, "350", FALSE);
-INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "coral.png", "Coral", "Beach", FALSE, "250", FALSE);
-INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "cowrie-shell.png", "Cowrie Shell", "Beach", FALSE, "30", FALSE);
-INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "giant-clam-shell.png", "Giant-Clam Shell", "Beach", FALSE, "450", FALSE);
-INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "oyster-shell.png", "Oyster Shell", "Beach", FALSE, "450", FALSE);
-INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "pearl-oyster-shell.png", "Pearl-Oyster Shell", "Beach", FALSE, "1200", FALSE);
-INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "sand-dollar.png", "Sand Dollar", "Beach", FALSE, "60", FALSE);
-INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "scallop-shell.png", "Scallop Shell", "Beach", FALSE, "600", FALSE);
-INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "sea-snail-shell.png", "Sea-Snail Shell", "Beach", FALSE, "90", FALSE);
-INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "venus-comb-shell.png", "Venus-Comb Shell", "Beach", FALSE, "150", FALSE);
-
---SHOES
-
---SOCKS
-
 --PAPER
 INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Paper", "academy-paper.png", "Academy Paper", "Villager letters (rare)", FALSE, "40", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "airmail-paper.png", "Airmail Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
@@ -482,7 +466,46 @@ INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, o
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "vine-paper.png", "Vine Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
 INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, sellsFor, obtained) VAULES ("Paper", "weathered-paper.png", "Weathered Paper", "Timmy & Tommy", "160", TRUE, "40", FALSE);
 
+--SEASHELLS
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "conch-shell.png", "Conch Shell", "Beach", FALSE, "350", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "coral.png", "Coral", "Beach", FALSE, "250", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "cowrie-shell.png", "Cowrie Shell", "Beach", FALSE, "30", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "giant-clam-shell.png", "Giant-Clam Shell", "Beach", FALSE, "450", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "oyster-shell.png", "Oyster Shell", "Beach", FALSE, "450", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "pearl-oyster-shell.png", "Pearl-Oyster Shell", "Beach", FALSE, "1200", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "sand-dollar.png", "Sand Dollar", "Beach", FALSE, "60", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "scallop-shell.png", "Scallop Shell", "Beach", FALSE, "600", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "sea-snail-shell.png", "Sea-Snail Shell", "Beach", FALSE, "90", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Seashells", "venus-comb-shell.png", "Venus-Comb Shell", "Beach", FALSE, "150", FALSE);
+
+--SHOES
+
+--SOCKS
+
 --TOOLS
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Tools", "axe.png", "Axe", "Gardening Store", FALSE, "100", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Tools", "fishing-rod.png", "Fishing Rod", "Timmy & Tommy", FALSE, "125", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, set, obtained) VAULES ("Tools", "flower.fairy-wand.png", "Flower Fairy Wand", "Destroy at least 100 candy blocks in Candy Attack on any difficulty in Puzzle League", FALSE, "300", "Welcome amiibo Update" FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Tools", "golden-axe.png", "Golden Axe", "Gardening Store (buy 50 or more saplings)", FALSE, "100", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Tools", "golden-can.png", "Golden Can", "Isabelle (Maintain a perfect town rating for 15 days)", FALSE, "125", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Tools", "golden-net.png", "Golden Net", "Bug Off (full insect encyclopedia)", FALSE, "125", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Tools", "golden-rod.png", "Golden Rod", "Fishing Tourney (full fish/deep-sea catch encyclopedia)", FALSE, "125", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Tools", "golden-shovel.png", "Golden Shovel", "Gardening Store (buy 50 or more bags of fertilizer)", FALSE, "125", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Tools", "golden-slingshot.png", "Golden Slingshot", "Gift balloon (after popping lots of balloons)", FALSE, "125", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, price, orderable, interiorTheme, set, obtained) VAULES ("Tools", "kiki-and-lala-wand.png", "Kiki and Lala Wand", "Étoile's RV (Sanrio)", "3 MEOW coupons", FALSE, "Fairy Tale", "Welcome amiibo Update", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Tools", "megaphone.png", "Megaphone", "Timmy & Tommy (after the Super T&T arrives)", FALSE, "125", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Tools", "net.png", "Net", "Timmy & Tommy;Bug Off", FALSE, "125", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Tools", "shovel.png", "Shovel", "Timmy & Tommy", FALSE, "125", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, price, obtained) VAULES ("Tools", "silver-axe.png", "Silver Axe", "Island Gift Shop (rare)", FALSE, "8 medals", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Tools", "silver-can.png", "Silver Can", "Gardening Store (buy 50 or more bags of flower seeds)", FALSE, "125", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Tools", "silver-net.png", "Silver Net", "Museum Shop (after donating 30 or more insects)", FALSE, "125", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Tools", "silver-rod.png", "Silver Rod", "Museum Shop (after donating 30 or more fish & deep-sea catches)", FALSE, "125", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Tools", "silver-shovel.png", "Silver Shovel", "Museum Shop (after donating 15 or more fossils)", FALSE, "125", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Tools", "silver-slingshot.png", "Silver Slingshot", "Gift balloon (after popping lots of balloons)", FALSE, "125", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Tools", "slingshot.png", "Slingshot", "Timmy & Tommy (after the T&T Mart arrives)", FALSE, "125", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Tools", "timer.png", "Timer", "Timmy & Tommy (after the Super T&T arrives)", FALSE, "125", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, price, obtained) VAULES ("Tools", "toy-hammer.png", "Toy Hammer", "Island Gift Shop (rare)", FALSE, "10 medals", FALSE);
+INSERT INTO items(type, photo, name, obtainedFrom, orderable, sellsFor, obtained) VAULES ("Tools", "watering-can.png", "Watering Can", "Gardening Store", FALSE, "125", FALSE);
 
 --TOPS
 
